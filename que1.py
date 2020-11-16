@@ -1,2 +1,4 @@
-file_object=open(filename,[mode],[buffring])
-print(filename)
+my_file = open("people.txt","t")
+file_data = my_file.append("nand")
+print (file_data)
+my_file.close()
